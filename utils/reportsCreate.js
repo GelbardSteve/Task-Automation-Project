@@ -8,7 +8,7 @@ const year = today.getFullYear();
 const todayDate = `${month}-${day}-${year}`;
 
 createReport = (repoName) => {
-  return `../automations_project/reports/${repoName}.txt`;
+  return `../Task-Automation-project/reports/${repoName}.txt`;
 };
 
 getData = () => {
@@ -33,7 +33,7 @@ module.exports = {
 
   insertStatusReport(comment, status, cell, testName) {
     fs.appendFile(
-      `../automations_project/reports/${testName}.txt`,
+      `../Task-Automation-project/reports/${testName}.txt`,
       `${status ? "SUCCEED" : "FAILED"} At Comment: ${comment}, Data - ${
         typeof cell == "object" ? cell.join(" | ") : cell
       }\r\n`,
