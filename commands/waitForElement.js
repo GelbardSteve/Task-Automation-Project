@@ -2,7 +2,7 @@
 module.exports = (browser, element_to_wait, insertNewRepo, screenShotsFail, testName) => {
   return new Promise(resolve => {
     browser.waitForElementVisible(element_to_wait[1],
-      15000,
+      25000,
       false,
       (res) => {
         insertNewRepo("Wait For Element", res.status == 0, element_to_wait, testName);
