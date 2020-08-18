@@ -1,0 +1,8 @@
+Time: 9:54, Date: 08-18-2020
+
+SUCCEED At Comment: Wait For Element, Data - Cardholder's Name | #cs-holdersName
+SUCCEED At Comment: Insert Text, Data - Cardholder's Name | #cs-holdersName
+SUCCEED At Comment: Insert Text, Data - Card Number | #cs-number
+SUCCEED At Comment: Insert Text, Data - Expiration Date | #cs-expDate
+SUCCEED At Comment: Insert Text, Data - Security Code | #cs-cvv
+SUCCEED At Comment: Click On Element, Data - Payent Continue Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > form > div.action-buttons--mhZ-P > button

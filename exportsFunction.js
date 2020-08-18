@@ -1,0 +1,15 @@
+module.exports = {
+  openWindow: require("./commands/openWindow"),
+  closeBrowser: require("./commands/closeBrowser"),
+  insertValue: require("./commands/insertValue"),
+  clickOnElement: require("./commands/clickOnElement"),
+  waitForElement: require("./commands/waitForElement"),
+  pause: require("./commands/pause"),
+  clickOnSelector: require("./commands/clickOnSelector"),
+  clickOnSelectorFromList: require("./commands/clickOnSelectorFromList.js"),
+  deleteFromFolder: require("./commands/deleteFromFolder.js"),
+  saveScreenShots: require("./commands/saveScreenShots.js"),
+  pressEnter: require("./commands/pressEnter.js"),
+  arrowDown: require("./commands/arrowDown.js"),
+  changeSelectorStyle: require("./commands/changeSelectorStyle.js"),
+};

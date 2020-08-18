@@ -1,0 +1,10 @@
+Time: 11:09, Date: 08-18-2020
+
+SUCCEED At Comment: Wait For Element, Data - Country List | #country > div
+SUCCEED At Comment: Click On Element, Data - Country List | #country > div
+SUCCEED At Comment: Click On Selector, Data - Country List Input | .ant-select-dropdown-menu-item
+SUCCEED At Comment: Insert Text, Data - Number | #cs-more
+SUCCEED At Comment: Insert Text, Data - Street Address | #cs-street
+SUCCEED At Comment: Insert Text, Data - City | #cs-city
+SUCCEED At Comment: Insert Text, Data - Postal Codes | #cs-zip
+SUCCEED At Comment: Click On Element, Data - Continue Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > form > div > button
