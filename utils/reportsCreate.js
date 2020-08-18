@@ -34,7 +34,7 @@ module.exports = {
   insertStatusReport(comment, status, cell, testName) {
     fs.appendFile(
       `../Task-Automation-project/reports/${testName}.txt`,
-      `${status ? "SUCCEED" : "FAILED"} At Comment: ${comment}, Data - ${
+      `${status ? "SUCCEED" : "FAILED"} At Command: ${comment}, Data - ${
         typeof cell == "object" ? cell.join(" | ") : cell
       }\r\n`,
       (err) => {

@@ -1,9 +1,9 @@
-Time: 11:09, Date: 08-18-2020
+Time: 19:03, Date: 08-18-2020
 
-SUCCEED At Comment: Open Window, Data - URL | https://vpos.sandbox.splitit.com/#/intro
-SUCCEED At Comment: Wait For Element, Data - New Payment Button | #root > div:nth-child(1) > div > div.aside--1wioY > div.actions--2oSpM > div:nth-child(1) > button
-SUCCEED At Comment: Click On Selector, Data - New Payment Button | #root > div:nth-child(1) > div > div.aside--1wioY > div.actions--2oSpM > div:nth-child(1) > button
-SUCCEED At Comment: Insert Text, Data - Password | #cs-password
-SUCCEED At Comment: Insert Text, Data - User Name | #cs-username
-SUCCEED At Comment: Wait For Element, Data - Sign In Button | #root > div:nth-child(1) > div.auth-flow--3qP-r > div > form > div > button
-SUCCEED At Comment: Click On Element, Data - Sign In Button | #root > div:nth-child(1) > div.auth-flow--3qP-r > div > form > div > button
+SUCCEED At Command: Open Window, Data - URL | https://vpos.sandbox.splitit.com/#/intro
+SUCCEED At Command: Wait For Element, Data - New Payment Button | #root > div:nth-child(1) > div > div.aside--1wioY > div.actions--2oSpM > div:nth-child(1) > button
+SUCCEED At Command: Click On Selector, Data - New Payment Button | #root > div:nth-child(1) > div > div.aside--1wioY > div.actions--2oSpM > div:nth-child(1) > button
+SUCCEED At Command: Insert Text, Data - User Name | #cs-username
+SUCCEED At Command: Insert Text, Data - Password | #cs-password
+SUCCEED At Command: Wait For Element, Data - Sign In Button | #root > div:nth-child(1) > div.auth-flow--3qP-r > div > form > div > button
+SUCCEED At Command: Click On Element, Data - Sign In Button | #root > div:nth-child(1) > div.auth-flow--3qP-r > div > form > div > button

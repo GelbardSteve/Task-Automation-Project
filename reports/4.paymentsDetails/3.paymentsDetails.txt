@@ -1,6 +1,6 @@
 Time: 9:54, Date: 08-18-2020
 
-SUCCEED At Comment: Wait For Element, Data - Drag Handle | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.deposit-plan-content--1NHSL > div.slider-wrap--neu8b > div > div.drag-bar--5BfYK > div
-SUCCEED At Comment: Change Selector Style, Data - Move Drag Handle | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.deposit-plan-content--1NHSL > div.slider-wrap--neu8b > div > div.drag-bar--5BfYK > div | translate(274.333px, -50%)
-SUCCEED At Comment: Click On Element, Data - Drag Handle | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.deposit-plan-content--1NHSL > div.slider-wrap--neu8b > div > div.drag-bar--5BfYK > div
-SUCCEED At Comment: Click On Element, Data - Continue Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.action-buttons--mhZ-P > button
+SUCCEED At Command: Wait For Element, Data - Drag Handle | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.deposit-plan-content--1NHSL > div.slider-wrap--neu8b > div > div.drag-bar--5BfYK > div
+SUCCEED At Command: Change Selector Style, Data - Move Drag Handle | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.deposit-plan-content--1NHSL > div.slider-wrap--neu8b > div > div.drag-bar--5BfYK > div | translate(274.333px, -50%)
+SUCCEED At Command: Click On Element, Data - Drag Handle | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.deposit-plan-content--1NHSL > div.slider-wrap--neu8b > div > div.drag-bar--5BfYK > div
+SUCCEED At Command: Click On Element, Data - Continue Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.action-buttons--mhZ-P > button

@@ -1,6 +1,6 @@
 Time: 9:54, Date: 08-18-2020
 
-SUCCEED At Comment: Wait For Element, Data - Canvas | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.signature-wrap--2QC05 > canvas
-SUCCEED At Comment: Wait For Element, Data - Confirm Payment Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > button
-SUCCEED At Comment: Click On Selector, Data - Confirm Payment Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > button
-SUCCEED At Comment: Click On Element, Data - Go Home Button | #root > div:nth-child(1) > div > button
+SUCCEED At Command: Wait For Element, Data - Canvas | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > div.signature-wrap--2QC05 > canvas
+SUCCEED At Command: Wait For Element, Data - Confirm Payment Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > button
+SUCCEED At Command: Click On Selector, Data - Confirm Payment Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > button
+SUCCEED At Command: Click On Element, Data - Go Home Button | #root > div:nth-child(1) > div > button

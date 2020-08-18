@@ -1,12 +1,12 @@
-Time: 11:09, Date: 08-18-2020
+Time: 19:03, Date: 08-18-2020
 
-SUCCEED At Comment: Click On Element, Data - New Payment Button | #root > div:nth-child(1) > div > div.aside--1wioY > div.actions--2oSpM > div:nth-child(1) > button
-SUCCEED At Comment: Wait For Element, Data - Total Amount Input | #cs-amount
-SUCCEED At Comment: Insert Text, Data - Total Amount Input | #cs-amount
-SUCCEED At Comment: Click On Element, Data - Currency | #currency
-SUCCEED At Comment: Down Keyboard, Data - Down Keyboard
-SUCCEED At Comment: Down Keyboard, Data - Down Keyboard
-SUCCEED At Comment: Press On Enter, Data - Enter
-SUCCEED At Comment: Wait For Element, Data - Order Id Number Input | #cs-orderNumber
-SUCCEED At Comment: Insert Text, Data - Order Id Number Input | #cs-orderNumber
-SUCCEED At Comment: Click On Element, Data - Continue Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > form > div.action-buttons--mhZ-P > button
+SUCCEED At Command: Click On Element, Data - New Payment Button | #root > div:nth-child(1) > div > div.aside--1wioY > div.actions--2oSpM > div:nth-child(1) > button
+SUCCEED At Command: Wait For Element, Data - Total Amount Input | #cs-amount
+SUCCEED At Command: Insert Text, Data - Total Amount Input | #cs-amount
+SUCCEED At Command: Click On Element, Data - Currency | #currency
+SUCCEED At Command: Down Keyboard, Data - Down Keyboard
+SUCCEED At Command: Down Keyboard, Data - Down Keyboard
+SUCCEED At Command: Press On Enter, Data - Enter
+SUCCEED At Command: Wait For Element, Data - Order Id Number Input | #cs-orderNumber
+SUCCEED At Command: Insert Text, Data - Order Id Number Input | #cs-orderNumber
+SUCCEED At Command: Click On Element, Data - Continue Button | #root > div:nth-child(1) > div > div.layout-content--Eu5wJ > div > div.content--3JsLo > form > div.action-buttons--mhZ-P > button
