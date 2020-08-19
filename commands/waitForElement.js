@@ -7,8 +7,9 @@ module.exports = (browser, element_to_wait, insertNewRepo, screenShotsFail, test
       (res) => {
         insertNewRepo("Wait For Element", res.status == 0, element_to_wait, testName);
         screenShotsFail(browser, res.status !== 0, element_to_wait[0]);
-        browser.pause(380);
-        resolve()
+        browser.pause(380, () => {
+          resolve()
+        })
       }
     );
   })
