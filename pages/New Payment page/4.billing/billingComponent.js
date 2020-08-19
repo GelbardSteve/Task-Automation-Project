@@ -32,47 +32,47 @@ module.exports = {
       test_name,
       14
     );
-    await f.insertValue(
-      browser,
-      billingSelectors.streetAddress,
-      "test",
-      insertStatusRepo,
-      f.saveScreenShots,
-      test_name
-    );
-    await f.insertValue(
-      browser,
-      billingSelectors.number,
-      "0500000000",
-      insertStatusRepo,
-      f.saveScreenShots,
-      test_name
-    );
-    await f.insertValue(
-      browser,
-      billingSelectors.city,
-      "test",
-      insertStatusRepo,
-      f.saveScreenShots,
-      test_name
-    );
-    await f
-      .insertValue(
+
+    browser.pause(2400, async () => {
+      await f.insertValue(
+        browser,
+        billingSelectors.streetAddress,
+        "test",
+        insertStatusRepo,
+        f.saveScreenShots,
+        test_name
+      );
+      await f.insertValue(
+        browser,
+        billingSelectors.number,
+        "0500000000",
+        insertStatusRepo,
+        f.saveScreenShots,
+        test_name
+      );
+      await f.insertValue(
+        browser,
+        billingSelectors.city,
+        "test",
+        insertStatusRepo,
+        f.saveScreenShots,
+        test_name
+      );
+      await f.insertValue(
         browser,
         billingSelectors.postalCode,
         "123456",
         insertStatusRepo,
         f.saveScreenShots,
         test_name
-      )
-      .then(async (res) => {
-        await f.clickOnElement(
-          browser,
-          billingSelectors.continueButton,
-          insertStatusRepo,
-          f.saveScreenShots,
-          test_name
-        );
-      });
+      );
+      await f.clickOnElement(
+        browser,
+        billingSelectors.continueButton,
+        insertStatusRepo,
+        f.saveScreenShots,
+        test_name
+      );
+    });
   },
 };
