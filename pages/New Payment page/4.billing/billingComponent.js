@@ -33,7 +33,7 @@ module.exports = {
       14
     );
 
-    browser.pause(2400, async () => {
+    browser.pause(1000, async () => {
       await f.insertValue(
         browser,
         billingSelectors.streetAddress,
