@@ -74,7 +74,7 @@ module.exports = {
                 test_name
               )
               .then(async (res) => {
-                await closeSession();
+                process.exit()
               });
           }
         }
