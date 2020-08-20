@@ -74,7 +74,9 @@ module.exports = {
                 test_name
               )
               .then(async (res) => {
-                process.exit()
+                browser.end(() => {
+                  process.exit();
+                });
               });
           }
         }
