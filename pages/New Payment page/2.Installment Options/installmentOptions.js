@@ -6,7 +6,7 @@ const {
 const reports = require("../../../utils/reportsCreate");
 const createNewRepo = reports.createNewReport;
 const insertStatusRepo = reports.insertStatusReport;
-f.deleteFromFolder(`../Task-Automation-project/reports/3.installmentOptions`);
+f.deleteFromFolder(`../automation-check-flow-of-payment/reports/3.installmentOptions`);
 module.exports = {
   installmentOptions: async function (browser, testNum) {
     const test_name = `3.installmentOptions/${testNum}`;
